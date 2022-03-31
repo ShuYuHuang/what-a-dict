@@ -63,8 +63,13 @@ members.update({"friends":Dict(ge62="good computer")})
 # iteration
 for k,v in members.items():
     pass
+
+# concatenation
+members_new=Dict(members,**{"friends":Dict(ge62="good computer")})
 ###
 ```
+
+
 
 I provided a way of pretty print FYI:
 ```python
