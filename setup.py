@@ -14,7 +14,6 @@ URL = 'https://github.com/ShuYuHuang/what-a-dict'
 EMAIL = 'b123767195@gmail.com'
 AUTHOR = 'ShuYuHuang'
 REQUIRES_PYTHON = '>=3.6.0'
-VERSION = '0.1.0'
 REQUIRED = [
     # 'requests', 'maya', 'records',
 ]
