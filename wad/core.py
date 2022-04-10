@@ -20,3 +20,19 @@ class Dict(dict):
             print(string)
         else:
             return string
+
+
+registered=Dict(
+    models=Dict(),
+    datasets=Dict(),
+    losses=Dict(),)
+def register(dictionary):
+    def decorator(cls):
+        dictionary.update({str(cls)[17:-2]:cls})
+        return cls
+    return decorator
+
+@register(registered.models)
+class XXOONetwork:
+    def __init__(self,a):
+        self.a=a
