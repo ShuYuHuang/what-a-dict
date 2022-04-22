@@ -1,5 +1,6 @@
 # what-a-dict
 [![Downloads](https://static.pepy.tech/personalized-badge/what-a-dict?period=total&units=abbreviation&left_color=black&right_color=brightgreen&left_text=downloads)](https://pepy.tech/project/what-a-dict)
+
 Dictionary class with advanced functionality
 
 ## Installation
