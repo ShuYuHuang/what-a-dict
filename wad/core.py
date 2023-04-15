@@ -1,3 +1,15 @@
+## This is a dictionary that stores the registered contents as arguments of objects
+# Create dictionary object:
+#   dict_object = Dict(argname0=value0, argname1=value1, ...)
+# Update dictionary object:
+#   dict_object['argname2'] = value2
+#   dict_object.update(argname3=value3, argname4=value4, ...)
+# Retrive contents:
+#   dict_object['argname0']
+#   dict_object.argname0
+# Print dictionary object:
+#    print(dict_object)
+
 class Dict(dict):
     def __init__(self,*args,**kwargs):
         super().__init__(*args,**kwargs)
